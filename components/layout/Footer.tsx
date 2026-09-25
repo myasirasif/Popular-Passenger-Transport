@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowUpRight, Mail, MapPin, Phone, Inbox } from "lucide-react";
+import { ArrowUpRight, Heart, Mail, MapPin, Phone, Inbox } from "lucide-react";
 import { Logo } from "@/components/brand/Logo";
 import { nav, services, siteConfig } from "@/lib/site-config";
 
@@ -9,7 +9,7 @@ export function Footer() {
     <footer className="bg-brand-deep pb-20 text-white/70 md:pb-0">
       <div className="container-x grid gap-12 py-16 md:grid-cols-12">
         <div className="md:col-span-4">
-          <Logo className="h-12" inverted />
+          <Logo className="h-10" inverted />
           <p className="mt-6 max-w-xs text-sm leading-relaxed">
             Bus rental, staff transportation and school transport from our Karama office.{" "}
             {siteConfig.experience}.
@@ -82,9 +82,24 @@ export function Footer() {
       <div className="border-t border-white/10">
         <div className="container-x flex flex-col gap-2 py-6 text-xs sm:flex-row sm:justify-between">
           <p>
-            &copy; {new Date().getFullYear()} {siteConfig.name}. All rights reserved.
+            &copy; {new Date().getFullYear()} {siteConfig.name}. All rights reserved. &middot;{" "}
+            <Link href="/credits" className="hover:text-white">
+              Photo credits
+            </Link>
           </p>
-          <p>Karama bus hire, Bur Dubai</p>
+          <p className="flex items-center gap-1">
+            Design and developed with
+            <Heart className="h-3.5 w-3.5 fill-red-500 text-red-500" aria-label="love" />
+            by
+            <a
+              href="https://yasirafridi.dev/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-white hover:text-signal"
+            >
+              Yasir
+            </a>
+          </p>
         </div>
       </div>
     </footer>

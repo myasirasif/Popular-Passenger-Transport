@@ -86,7 +86,7 @@ export const services: Service[] = [
       "Daily pick and drop contracts for offices, factories and labour accommodation across Dubai and the Northern Emirates.",
     icon: Briefcase,
     image: "/images/service-staff.jpg",
-    imageAlt: "Staff boarding a company shuttle bus in Dubai",
+    imageAlt: "Sheikh Zayed Road and Dubai Marina at dusk",
     points: [
       "Fixed daily routes and shift-based schedules",
       "Offices, factories and labour accommodation",
@@ -100,7 +100,7 @@ export const services: Service[] = [
     short: "Licensed drivers and supervised routes for schools and nurseries.",
     icon: GraduationCap,
     image: "/images/service-school.jpg",
-    imageAlt: "School bus on a supervised morning route in Dubai",
+    imageAlt: "Toyota Coaster minibus used for school routes",
     points: [
       "Licensed, experienced drivers",
       "Supervised pick-up and drop-off routes",
@@ -114,7 +114,7 @@ export const services: Service[] = [
     short: "Hourly, daily and monthly hire with or without driver.",
     icon: Bus,
     image: "/images/service-rental.jpg",
-    imageAlt: "Toyota Hiace passenger van ready for rental",
+    imageAlt: "Toyota HiAce passenger van",
     points: [
       "Hourly, daily and monthly hire",
       "Van rental with driver, or without",
@@ -128,7 +128,7 @@ export const services: Service[] = [
     short: "DXB and DWC pickups and drop-offs, group arrivals handled.",
     icon: Plane,
     image: "/images/service-airport.jpg",
-    imageAlt: "Passenger van waiting for a group arrival at Dubai airport",
+    imageAlt: "Glass roof at Dubai International Airport",
     points: [
       "Dubai International (DXB) and Al Maktoum (DWC)",
       "Meet-and-greet for group arrivals",
@@ -142,7 +142,7 @@ export const services: Service[] = [
     short: "Weddings, conferences, exhibitions and corporate outings.",
     icon: CalendarHeart,
     image: "/images/service-events.jpg",
-    imageAlt: "Coach parked outside a Dubai conference venue",
+    imageAlt: "Dubai skyline at night",
     points: [
       "Weddings and private celebrations",
       "Conferences and exhibitions",
@@ -156,7 +156,7 @@ export const services: Service[] = [
     short: "Dubai to Abu Dhabi, Muscat and other cross-border routes on request.",
     icon: Route,
     image: "/images/service-intercity.jpg",
-    imageAlt: "Coach travelling on a UAE highway",
+    imageAlt: "Highway between Dubai and Abu Dhabi",
     points: [
       "Dubai to Abu Dhabi and across the UAE",
       "Muscat and cross-border routes on request",
@@ -190,12 +190,12 @@ export const fleet: Vehicle[] = [
   },
   {
     id: "hiace-highroof",
-    name: "Toyota Hiace High Roof",
+    name: "Toyota Hiace, Latest Model",
     category: "Vans",
     seats: "Up to 14 seats",
     image: "/images/fleet-hiace-02.jpg",
-    imageAlt: "Toyota Hiace high roof van",
-    features: ["Air conditioned", "Standing headroom", "Driver included"],
+    imageAlt: "Latest model Toyota HiAce van",
+    features: ["Air conditioned", "Luggage space", "Driver included"],
   },
   {
     id: "coaster-26",
@@ -203,7 +203,7 @@ export const fleet: Vehicle[] = [
     category: "Coasters",
     seats: "26 seats",
     image: "/images/fleet-coaster-01.jpg",
-    imageAlt: "26 seater coaster bus",
+    imageAlt: "Toyota Coaster bus, 26 seater class",
     features: ["Air conditioned", "Luggage space", "Driver included"],
   },
   {
@@ -212,7 +212,7 @@ export const fleet: Vehicle[] = [
     category: "Coasters",
     seats: "35 seats",
     image: "/images/fleet-coaster-02.jpg",
-    imageAlt: "35 seater coaster bus",
+    imageAlt: "Toyota Coaster bus, 35 seater class",
     features: ["Air conditioned", "Luggage space", "Driver included"],
   },
   {
@@ -221,7 +221,7 @@ export const fleet: Vehicle[] = [
     category: "Coaches",
     seats: "50 seats",
     image: "/images/fleet-coach-01.jpg",
-    imageAlt: "50 seater coach",
+    imageAlt: "White full-size 50 seater coach",
     features: ["Air conditioned", "Large luggage hold", "Driver included"],
   },
 ];

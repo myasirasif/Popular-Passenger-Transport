@@ -22,7 +22,7 @@ export default function ServicesPage() {
         title="Six ways we move people across the UAE."
         intro="Staff transportation, school transport and van rental with driver in Dubai, plus airport, event and intercity trips. One team, one number, fixed quotes."
         image="/images/service-staff.jpg"
-        imageAlt="Staff transport coaster on a Dubai route"
+        imageAlt="Sheikh Zayed Road and Dubai Marina at dusk"
       >
         <nav aria-label="Jump to service" className="flex flex-wrap gap-2">
           {services.map((s) => (

@@ -1,7 +1,9 @@
 # Images
 
-Every image here is a generated placeholder (`node scripts/generate-placeholders.mjs`).
-Swap in a real photo with the same filename and a similar aspect ratio. No code changes are needed.
+These are free-licence stock photos (Wikimedia Commons via Openverse, CC0 or CC BY). They are not
+the company's own vehicles. Credits live in `lib/photo-credits.ts` and show on `/credits`.
+To use a real photo, keep the same filename and a similar aspect ratio, then remove its entry
+from `lib/photo-credits.ts`.
 
 | File | Size / ratio | Where it appears |
 |---|---|---|

@@ -75,7 +75,7 @@ export function WhyUs() {
           <div className="relative aspect-[6/7] overflow-hidden rounded-[2rem] shadow-lift">
             <Image
               src="/images/why-us.jpg"
-              alt="Air-conditioned coaster bus ready for a staff transport route"
+              alt="Driver cabin of an air-conditioned Toyota Coaster"
               fill
               sizes="(min-width: 1024px) 40vw, 100vw"
               className="object-cover"

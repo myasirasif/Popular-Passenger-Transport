@@ -49,9 +49,11 @@ export function Header() {
       <div className="container-x flex h-18 items-center justify-between gap-6">
         <Link href="/" aria-label="Popular Passenger Transport, home" className="shrink-0">
           <span className="hidden sm:block">
-            <Logo className="h-11" inverted={!solid} />
+            <Logo className="h-9" inverted={!solid} />
           </span>
-          <LogoMark className="h-10 w-10 sm:hidden" inverted={!solid} />
+          <span className="sm:hidden">
+            <LogoMark className="h-8" inverted={!solid} />
+          </span>
         </Link>
 
         <nav aria-label="Main" className="hidden lg:block">
@@ -121,7 +123,7 @@ export function Header() {
             className="fixed inset-0 z-50 flex h-dvh flex-col bg-brand-deep text-white lg:hidden"
           >
             <div className="container-x flex h-18 items-center justify-between">
-              <Logo className="h-10" inverted />
+              <Logo className="h-8" inverted />
               <button
                 type="button"
                 onClick={() => setOpen(false)}

@@ -24,7 +24,7 @@ export default function ContactPage() {
         title="Get a fixed quote for your trip."
         intro="Fill in the enquiry form or reach the Karama office directly by phone or WhatsApp."
         image="/images/service-rental.jpg"
-        imageAlt="Passenger van ready for booking"
+        imageAlt="Toyota HiAce passenger van"
       />
 
       <section className="container-x grid gap-10 py-20 sm:py-24 lg:grid-cols-12" aria-label="Contact">

@@ -5,7 +5,6 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { ArrowRight, Phone, Star } from "lucide-react";
 import { siteConfig } from "@/lib/site-config";
-import { QuickBooking } from "./QuickBooking";
 
 const rise = (delay: number) => ({
   initial: { opacity: 0, y: 28 },
@@ -17,10 +16,10 @@ export function Hero() {
   const { rating } = siteConfig;
   return (
     <section className="relative">
-      <div className="relative isolate flex min-h-[100svh] items-center overflow-hidden bg-brand-deep pt-28 pb-44 sm:pb-40">
+      <div className="relative isolate flex min-h-[100svh] items-center overflow-hidden bg-brand-deep pt-28 pb-24">
         <Image
           src="/images/hero-coach.jpg"
-          alt="Popular Passenger Transport coach on a Dubai road"
+          alt="Sheikh Zayed Road traffic at night, Dubai"
           fill
           priority
           sizes="100vw"
@@ -80,10 +79,6 @@ export function Hero() {
             </motion.ul>
           </div>
         </div>
-      </div>
-
-      <div className="container-x relative z-10 -mt-28 sm:-mt-20">
-        <QuickBooking />
       </div>
     </section>
   );

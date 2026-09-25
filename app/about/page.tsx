@@ -45,7 +45,7 @@ export default function AboutPage() {
         title="A Karama transport company that shows up."
         intro="For over seven years Popular Passenger Transport has moved staff, students and private groups across Dubai and the UAE, from one office in Bur Dubai."
         image="/images/about-karama.jpg"
-        imageAlt="Passenger van outside the Karama office"
+        imageAlt="Street in Al Karama, Dubai"
       />
 
       <section className="container-x grid gap-14 py-24 sm:py-28 lg:grid-cols-12 lg:items-center" aria-labelledby="who">
@@ -71,7 +71,7 @@ export default function AboutPage() {
           <div className="relative aspect-[6/7] overflow-hidden rounded-[2rem] shadow-lift">
             <Image
               src="/images/about-operations.jpg"
-              alt="Coach prepared for a corporate transport contract"
+              alt="White full-size coach for corporate transport"
               fill
               sizes="(min-width: 1024px) 40vw, 100vw"
               className="object-cover"

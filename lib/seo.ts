@@ -43,7 +43,7 @@ export function localBusinessJsonLd() {
     telephone: phone.tel,
     email: siteConfig.email,
     image: `${url}/images/hero-coach.jpg`,
-    logo: `${url}/icon.svg`,
+    logo: `${url}/brand/logo.png`,
     address: {
       "@type": "PostalAddress",
       streetAddress: address.street,

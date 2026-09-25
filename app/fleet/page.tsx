@@ -18,7 +18,7 @@ export default function FleetPage() {
         title="From passenger vans to 50 seat coaches."
         intro="Toyota Hiace passenger vans, 26 to 35 seater coasters and full-size 50 seater coaches. Every vehicle is air-conditioned and comes with a professional, licensed driver."
         image="/images/fleet-coach-01.jpg"
-        imageAlt="50 seater coach from the Popular Passenger Transport fleet"
+        imageAlt="White full-size 50 seater coach"
       />
       <section className="container-x py-20 sm:py-24" aria-label="Vehicles">
         <FleetGallery />
